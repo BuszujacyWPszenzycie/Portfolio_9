@@ -1,0 +1,45 @@
+@media (min-width: 768px) {
+	.section {
+		&__title {
+			padding: 4rem;
+			font-size: 5rem;
+		}
+	}
+
+	.header {
+		&__top {
+			width: 700px;
+			margin-top: 3rem;
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: center;
+		}
+	}
+
+	.nav {
+		margin: 0;
+		&__item {
+			padding-left: 2rem;
+			padding-right: 2rem;
+		}
+	}
+
+	.about {
+		&__subtitle {
+			margin-bottom: 8rem;
+		}
+		&__img {
+			width: 700px;
+		}
+
+		&__p {
+			font-size: 2rem;
+		}
+
+		&__wrapper {
+			&--p {
+				margin-top: 10rem;
+			}
+		}
+	}
+}

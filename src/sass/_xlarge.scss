@@ -1,0 +1,32 @@
+@media (min-width: 1200px) {
+	.header {
+		&__top {
+			width: 1100px;
+		}
+
+		&__icon {
+			font-size: 7rem;
+		}
+	}
+
+	.nav {
+		&__item {
+			font-size: 2.5rem;
+			padding-left: 3rem;
+			padding-right: 3rem;
+		}
+	}
+
+	.about {
+		&__subtitle {
+			margin-bottom: 12rem;
+		}
+		&__img {
+			width: 1000px;
+		}
+		&__p {
+			margin-left: 20rem;
+			font-size: 2.5rem;
+		}
+	}
+}
