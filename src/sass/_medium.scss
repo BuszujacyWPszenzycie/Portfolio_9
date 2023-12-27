@@ -6,6 +6,8 @@
 		}
 	}
 
+  // HEADER
+
 	.header {
 		&__top {
 			width: 700px;
@@ -16,6 +18,8 @@
 		}
 	}
 
+  // NAV
+
 	.nav {
 		margin: 0;
 		&__item {
@@ -23,6 +27,8 @@
 			padding-right: 2rem;
 		}
 	}
+
+  // ABOUT
 
 	.about {
 		&__subtitle {
@@ -39,6 +45,25 @@
 		&__wrapper {
 			&--p {
 				margin-top: 10rem;
+			}
+		}
+	}
+
+	// PORTFOLIO
+	.portfolio {
+		&__wrapper {
+			flex-direction: row;
+			flex-wrap: wrap;
+		}
+
+		&__item {
+			width: 350px;
+			height: 350px;
+			&:nth-child(4n + 1) {
+				background-color: $orange;
+			}
+			&:nth-child(4n + 2) {
+				background-color: $dark-grey;
 			}
 		}
 	}

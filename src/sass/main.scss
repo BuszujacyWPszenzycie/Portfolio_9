@@ -158,27 +158,23 @@ body {
 		flex-direction: column;
 	}
 
-	&__link {
-		text-decoration: none;
-		cursor: pointer;
-	}
-
 	&__item {
 		width: 300px;
 		height: 300px;
 		border-radius: 20px;
 		margin: 3rem;
-
-		&--gray {
-			background-color: $dark-grey;
-		}
-
-		&--orange {
+		cursor: pointer;
+		color: $white;
+		text-decoration: none;
+		&:nth-child(even) {
 			background-color: $orange;
 		}
 
+		&:nth-child(odd) {
+			background-color: $dark-grey;
+		}
+
 		&--title {
-			color: $white;
 			font-size: 4rem;
 			padding: 2rem;
 		}
@@ -186,14 +182,6 @@ body {
 		&--description {
 			font-size: 2rem;
 			padding: 2rem;
-
-			&--orange {
-				color: $orange;
-			}
-
-			&--gray {
-				color: $dark-grey;
-			}
 		}
 	}
 }

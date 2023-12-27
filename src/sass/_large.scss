@@ -17,6 +17,8 @@
 		}
 	}
 
+	// NAV
+
 	.nav {
 		&__item {
 			font-size: 2.3rem;
@@ -24,6 +26,8 @@
 			padding-right: 2.5rem;
 		}
 	}
+
+	// ABOUT
 
 	.about {
 		&__subtitle {
@@ -37,4 +41,7 @@
 			font-size: 2.2rem;
 		}
 	}
+
+	// PORTFOLIO
+
 }
